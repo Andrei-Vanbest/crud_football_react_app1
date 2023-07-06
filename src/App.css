@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.card2{
+
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color:red;
+  width:40%;
+  margin:20px auto;
+  text-align:center;
+  display:flex;
+  flex-direction: column
+
+
+
+}
+body{
+  background-image: url('https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTAzdHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMTQl/MkYwOSUyRjE5JTJGMzE5MTYzXzMxOTE2/M19hcmVuYV9uYXRpb25hbGEuanBnJnc9/NzgwJmg9NDQwJmhhc2g9YzhmNmI2ZjU2M2U3NWNlMjg0ZjMyN2E2Yjg5NzRhNzI=.thumb.jpg')
+}
+
+span{
+margin:3px;
+
+}
+label{
+  display:flex;
+  justify-content: space-between;
+  margin:4px;
+  
+}
+input{
+  padding-left:10px
+}
