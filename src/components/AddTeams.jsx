@@ -37,8 +37,8 @@ const AddTeams=(props)=>{
 
         
 
-         console.log(team)
-         if(nume.length !==0 &&creata.length !==0)  {
+         
+         /*if(nume.length !==0 &&creata.length !==0){*/
         const response = await fetch('https://crud-operation-react1-default-rtdb.firebaseio.com/data1.json',{
                                                                         method:'POST',
                                                                         body:JSON.stringify(team)})
@@ -49,7 +49,7 @@ const AddTeams=(props)=>{
     
         
              
-         props.setDataFB(prevState=>[...prevState,team])}
+         props.setDataFB(prevState=>[...prevState,team])
          setNume('')
          setCreata('')
          setAntrenor('')
